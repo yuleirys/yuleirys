@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mis gustos </title>
+    <link rel="icon" href="i/coquette.ico">
+
+    <!--CSS-->
+    <style>
+        *{
+box-sizing: border-box;
+
+        }
+        /*Estilo el cuerpo de la pagina*/
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            color: aliceblue;
+        }
+        
+        /*Header, Logo y titulo*/
+
+        .header {
+            padding: 60px; 
+            text-align: center;
+            background:rgba(230, 108, 154, 0.961) ;
+            color: rgba(248, 160, 194, 0.961);
+        }
+        /*Estilo de la barra de navegacion*/
+        .navbar{
+            display: flex;
+            background-color: rgba(248, 160, 194, 0.961);
+
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion*/
+        .navbar a {
+            color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse*/
+        .navbar a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 124, 150);
+        }
+
+        /*Contenedor de columnas*/
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral*/
+        .side {
+            flex: 30%;
+            background-color: rgba(245, 124, 170, 0.961);
+            padding: 20px;
+        }
+
+        /*Columna principal*/
+        .main{
+            flex: 70%;
+            background-color: rgba(240, 99, 153, 0.961);
+            padding: 20px;
+        }
+
+        /*Imagen*/
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+        /*Footer(la parte de abajo)*/
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background:crimson ;
+        }
+
+        /* Flex responsive*/
+        @media screen and (max-width: 70px) {
+            .row, 
+            .navbar{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    <div style="background: rgb(220, 20,60); padding: 5px;">
+        <h1 style="text-align: center; ">Bienvenidos al final de la aventura.</h1>
+        
+    </div>
+
+
+    <!--Header-->
+
+    <div class="header"> 
+        <h1>Cosas que me representan</h1>
+        <p>By<b>Yuleirys</b><b>Alba</b></p>
+    </div>
+
+    <!--Barra de navegación-->
+
+    
+    <nav class="navbar">
+        <a href="file:///C:/Users/User/Desktop/cosas%20que%20representan%20a%20yuleirys/index.html">Inicio</a>
+        <a href="file:///C:/Users/User/Desktop/cosas%20que%20representan%20a%20yuleirys/mis%20gustos.html">Mis gustos</a>
+        <a href="file:///C:/Users/User/Desktop/cosas%20que%20representan%20a%20yuleirys/contacto.html">Contacto</a>
+    </nav>
+
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2>Acerca de mi</h2>
+            <h5>Mi foto</h5>
+            <div class="imagenfalsa"><img src="i/baby.jpg" alt="Mujer flores" width="300" height="300"></div>
+            <p>Soy Yuleirys Alba, nací el 29 de mayo de 2009 en la República Dominicana. Desde pequeña, el arte
+                 ha sido una gran pasión para mí, especialmente la música y la actuación. El piano es mi mayor
+                  debilidad, lo amo profundamente y me conecta con algo mágico. Además, disfruto mucho de pasar
+                   tiempo con mi familia y ver películas que me transportan a otros mundos.
+            </p>
+                 <h3>Además</h3>
+                 <p>Me considero una persona extrovertida con quienes me rodean, aunque soy más introvertida con
+                     los que no conozco bien. Me encanta sorprenderme por la vida, ser alegre y activa. Amo cocinar,
+                      sobre todo postres, pero disfruto de preparar cualquier platillo. Ah, y no puedo olvidar que
+                       soy una gran amante del sueño, ¡dormir es uno de mis mayores placeres!</p>
+                   
+        </div>
+<div class="main">
+    <h2>Dónde estudio?</h2>
+   <h5>Centro Educativo Marillac</h5>
+   <div class="imagenfalsa" ><img src="i/marrillac.jpg"  alt="Mujer" width="300" height="300"></div>
+   <br>
+   <p>Estudio en el Centro Educativo Marillac desde hace cuatro años, y me siento muy afortunada de formar parte de esta
+     institución. Es una escuela excelente, con una educación de alta calidad y un enfoque muy sólido en el área técnica.
+      La formación que recibo en el área técnica me ha permitido desarrollar mis habilidades y conocimientos de manera 
+      increíble. Estoy muy agradecida por la manera en que enseñan y el compromiso que tienen con los estudiantes.</p>
+    <br>  
+    <h2>Agradecimientos </h2>
+        <p>Gracias por ver</p>
+        <p>¡Gracias por pasar por mi página! Me alegra que te hayas detenido a conocer un poco más sobre mí.
+             Espero que disfrutes lo que encuentres aquí. ¡Nos vemos pronto!</p>
+</div>
+
+
+</body>
+</html>
